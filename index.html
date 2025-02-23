@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dish Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <p><span>Sen</span>Resto</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about_us">A Propos</a></li>
+            <li><a href="javascript:void(0)" onclick="showOrderForm()" class="order-link">Réservation</a></li>
+        </ul>
+
+       
+        <div class="toggle_menu"></div>
+    </header>
+
+   
+
+    <section id="home">
+        <div class="left">
+            <h4>Bienvenue chez Sen Resto</h4>
+            <h1>Deguster les Saveurs de l'Afrique</h1>
+            <p>Découvrez les saveurs authentiques du continent</p>
+                         <button><a href="#menu" >Menu du jours</a></button>
+        </div>
+        <div class="right">
+            <img src="images/img1.png">
+        </div>
+    </section>
+
+      
+
+       <section id="menu">
+           <h4 class="mini_title">Notre Menu</h4>
+           <h2 class="title">Menu Populaire</h2>
+           <div class="dishes">
+               <div class="dish">
+                   <!-- <img src="images/img1.png"> -->
+                    <img src="images/thieb.png" alt="" srcset="">
+                   <p>Riz au poisson</p>
+                   <h2>2000fcfa</h2>
+                   <a href="javascript:void(0)" onclick="showOrderForm()" class="order-link">Commander</a>
+               </div>
+          
+               <div class="dish">
+                    <img src="images/poulet croust.png">
+                    <p>Djolof chiken</p>
+                    <h2>4000fcfa</h2>
+                    <a href="javascript:void(0)" onclick="showOrderForm()" class="order-link">Commander</a>
+               </div>
+               <div class="dish">
+                    <img src="images/yassa.png">
+                    <p>Yassa</p>
+                   <h2>4000fcfa</h2>
+                   <a href="javascript:void(0)" onclick="showOrderForm()" class="order-link">Commander</a>
+                </div>
+                <div class="dish">
+                        <img src="images/mbaxal.jpg">
+                        <p>Mbaxal</p>
+                   <h2>3000fcfa</h2>
+                   <a href="javascript:void(0)" onclick="showOrderForm()" class="order-link">Commander</a>
+                </div>
+                <div class="dish">
+                    <img src="images/mafe.png">
+                    <p>Mafe</p>
+                    <h2>2000fcfa</h2>
+                    <a href="javascript:void(0)" onclick="showOrderForm()" class="order-link">Commander</a>
+               </div>
+               <div class="dish">
+                <img src="images/img6.png">
+                <p>Buffe</p>
+                <h2>10000fcfa</h2>
+                <a href="javascript:void(0)" onclick="showOrderForm()" class="order-link">Commander</a>
+           </div>
+
+           </div>
+       </section>
+
+
+
+       <section id="about_us">
+            <h4 class="mini_title">A propos de nous</h4>
+            <h2 class="title">Notre Histoire</h2>
+            <p>Depuis 2010, nous partageons les saveurs authentiques...</p>
+            <div class="about">
+                <div class="left">
+                    <img src="images/img-about-us.png">
+                </div>
+                <div class="right">
+                    <h3>Saveur 100% africain </h3>
+                    <p>
+                        Notre restaurant africain est né de la passion pour les saveurs authentiques et la tradition culinaire de nos ancêtres.
+                        Nous mettons à l'honneur des recettes ancestrales, préparées avec des ingrédients frais et locaux, afin de vous offrir
+                        une expérience gustative unique et conviviale. Découvrez notre histoire, notre mission et les valeurs qui nous animent.
+                      </p>
+                    <button><a href="#">Voir plus</a></button>
+                </div>
+            </div>
+       </section>
+
+
+    
+      <section class="comment_section">
+            <h4 class="mini_title">Commentaire</h4>
+            <h2 class="title">Nos clients</h2>
+            <div class="comments">
+                <div class="comment">
+                    <div>
+                        <img src="images/img1.png">
+                        <h4>Fatou ,Dakar</h4>
+                    </div>
+                    <p>"Le restaurant Africain offre une expérience culinaire exceptionnelle. Les plats sont riches en saveurs et le service est impeccable. Je recommande vivement !"</p>
+                               </div>
+                <div class="comment">
+                    <div>
+                        <img src="images/img1.png">
+                        <h4>Jean,Paris</h4>
+                    </div>
+                    <p>"Une véritable découverte de la cuisine africaine. Des plats délicieux, des épices parfaitement équilibrées et une ambiance conviviale. Bravo aux chefs !"</p>                </div>
+                <div class="comment">
+                    <div>
+                        <img src="images/img1.png">
+                        <h4>Amina,Abidjan</h4>
+                    </div>
+                    <p>"J'ai été charmée par l'accueil chaleureux et la diversité des plats proposés. Chaque bouchée était un voyage au cœur de l'Afrique. Je reviendrai sans hésiter !"</p>                </div>
+
+
+            </div>
+      </section>
+
+     
+      <section id="reservation">
+        <h4 class="mini_title">reservation</h4>
+        <h2 class="title">Remplissez cette formulaire</h2>
+        <form action="">
+            <label>Votre Nom</label>
+            <input type="text">
+            <label> Votre Email</label>
+            <input type="email">
+            <label> Votre Numero</label>
+            <input type="text">
+            <label> Jour de Reservation</label>
+            <input type="date">
+            <input type="submit" value="Make The Reservation">
+            
+        </form>
+      </section>
+
+
+      
+      <footer>
+          <div class="services_list">
+              <div class="service">
+                  <img src="images/clock.png" alt="">
+                  <h2>Ouverture</h2>
+                  <p>10h30 à 23h45</p>
+                  <p>23h45 à 9h30</p>
+              </div>
+
+              <div class="service">
+                <img src="images/pin.png" alt="">
+                <h2>Adresses</h2>
+                <p>SEnegal-Dakar</p>
+                <p>Dakar plateau</p>
+            </div>
+            <div class="service">
+                <img src="images/email.png" alt="">
+                <h2>Emails</h2>
+                <p>email@gmail.com</p>
+                <p>sen.resto@gmail.com</p>
+            </div>
+            <div class="service">
+                <img src="images/call.png" alt="">
+                <h2>Numero</h2>
+                <p>78 554 76 58</p>
+                <p>77 354v66 98</p>
+            </div>
+            
+            <hr>
+          </div>
+
+          <p class="footer_text">Réalisé par <span>Baye Dame</span> | Tous les droits sont réservés.</p>
+      </footer>
+
+
+     <script src="scripts.js"></script>
+   
+</body>
+
+</html>
+
